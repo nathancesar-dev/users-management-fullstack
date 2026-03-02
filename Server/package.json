@@ -1,0 +1,23 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "é um treino",
+  "keywords": [
+    "abc"
+  ],
+  "license": "ISC",
+  "author": "nathan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.0"
+  }
+}
